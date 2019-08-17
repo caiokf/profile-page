@@ -14,6 +14,7 @@ export default () => {
           </Profile>
         )
       })}
+      <div className="email">{resume.basics.email}</div>
     </Container>
   )
 }

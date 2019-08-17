@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import styles from './styleguide'
 import Header from './components/Header'
 import Profiles from './components/Profiles'
 import Education from './components/Education'
@@ -25,6 +26,6 @@ const Profile = styled.div`
   justify-content: center;
 `
 const ProfileContainer = styled.div`
-  width: 1024px;
-  padding: 30px 0;
+  width: ${styles.dimensions.maxWidth};
+  padding: ${styles.dimensions.lg} 0;
 `

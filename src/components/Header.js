@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import styles from '../styleguide'
 import resume from '../resume.json'
 
 export default () => {
@@ -10,12 +11,11 @@ export default () => {
       <div>
         <Avatar photo={resume.basics.picture} />
       </div>
-      <div>
-        <h1 className="name">{resume.basics.name}</h1>
-        <div className="headline">{resume.basics.label}</div>
-        <div className="summary">{resume.basics.summary}</div>
 
-        <div className="email">{resume.basics.email}</div>
+      <div>
+        <Name className="name">{resume.basics.name}</Name>
+        <Headline className="headline">{resume.basics.label}</Headline>
+        <div className="summary">{resume.basics.summary}</div>
       </div>
     </Header>
   )
@@ -23,6 +23,9 @@ export default () => {
 
 const Header = styled.header`
   display: flex;
+  padding-bottom: ${styles.dimensions.lg};
+  border-bottom: 1px solid ${styles.colors.platinum};
+  margin-bottom: ${styles.dimensions.lg};
 `
 const Avatar = styled.div`
   background-image: url(${props => props.photo});
@@ -30,4 +33,13 @@ const Avatar = styled.div`
   background-position: center;
   height: 200px;
   width: 200px;
+  margin-right: ${styles.dimensions.md};
+  border-radius: 5px;
+`
+const Name = styled.div`
+  ${styles.typography.jumbo};
+`
+const Headline = styled.div`
+  ${styles.typography.label};
+  margin-bottom: ${styles.dimensions.md};
 `
