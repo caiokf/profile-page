@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import styles from '../styleguide'
 import resume from '../resume.json'
 
 export default () => {
@@ -8,6 +9,8 @@ export default () => {
       {resume.education.map(x => {
         return (
           <div>
+            <Header>Education</Header>
+
             <div className="education-institution">
               {x.institution}
             </div>
@@ -35,5 +38,8 @@ export default () => {
 }
 
 const Container = styled.div`
-
+  margin-bottom: ${styles.dimensions.lg};
+`
+const Header = styled.div`
+  ${styles.typography.header};
 `

@@ -6,4 +6,18 @@ export default createGlobalStyle`
     margin: 0;
     ${typography.regular};
   }
+
+  a {
+    text-decoration: none;
+    
+    ${typography.regular};
+
+    &:visited {
+      ${typography.regular};
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 `

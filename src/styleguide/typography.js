@@ -1,13 +1,13 @@
 import colors from './colors'
+import dimensions from './dimensions'
 
 const regular = `
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color: ${colors.codGray};
 `
 export default {
-  regular,
-
   jumbo: regular + `
     font-size: 48px;
     line-height: 60px;
@@ -21,16 +21,12 @@ export default {
     font-weight: 600;
     color: ${colors.yankeesBlue};
     text-transform: uppercase;
+    padding-bottom: ${dimensions.sm};
+    margin-bottom: ${dimensions.sm};
   `,
 
-  subheader: regular + `
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 600;
-    color: ${colors.yankeesBlue};
-  `,
-
+  regular,
+  
   label: regular + `
     font-size: 14px;
     opacity: .8;
@@ -40,10 +36,9 @@ export default {
   `,
 
   small: regular + `
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     margin: 5px 0px;
     font-weight: 400;
-    color: ${colors.yankeesBlue};
   `,
 }

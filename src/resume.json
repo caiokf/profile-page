@@ -15,9 +15,16 @@
     },
     "profiles": [
       {
-        "network": "Toptal",
-        "username": "caiokf",
-        "url": "http://github.com/caiokf",
+        "network": "Email",
+        "username": "caiokf@gmail.com",
+        "url": "mailto:caiokf@gmail.com",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gmail.svg",
+        "iconColor": "#D14836"
+      },
+      {
+        "network": "Toptal Profile",
+        "username": "Caio Kinzel Filho",
+        "url": "https://www.toptal.com/resume/caio-kinzel-filho",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/toptal.svg",
         "iconColor": "#3863A0"
       },
@@ -30,7 +37,7 @@
       },
       {
         "network": "LinkedIn",
-        "username": "caiokf",
+        "username": "/caiokf",
         "url": "https://www.linkedin.com/in/caiokf/",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg",
         "iconColor": "#0077B5"

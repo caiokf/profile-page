@@ -11,9 +11,16 @@ export default () => {
     <Profile className="profile">
       <ProfileContainer className="profile-container">
         <Header />
-        <Profiles />
-        <Education />
-        <WorkExperience />
+        <Body>
+          <Main>
+            <WorkExperience />
+          </Main>
+
+          <RightSidebar>
+            <Education />
+            <Profiles />
+          </RightSidebar>
+        </Body>
       </ProfileContainer>
     </Profile>
   )
@@ -28,4 +35,18 @@ const Profile = styled.div`
 const ProfileContainer = styled.div`
   width: ${styles.dimensions.maxWidth};
   padding: ${styles.dimensions.lg} 0;
+  display: flex;
+  flex-direction: column;
+`
+const Body = styled.div`
+  display: flex;
+  flex: 1;
+`
+const Main = styled.div`
+  display: flex;
+  flex: 1;
+`
+const RightSidebar = styled.div`
+  display: flex;
+  flex-direction: column;
 `
