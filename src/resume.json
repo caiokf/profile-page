@@ -65,6 +65,7 @@
       }
     ]
   },
+
   "languages": [
     {
       "language": "Portuguese",
@@ -79,6 +80,7 @@
       "fluency": "Intermediate"
     }
   ],
+
   "work": [
     {
       "company": "SelectQuote",
@@ -315,8 +317,8 @@
       "company": "Measured Progress",
       "via": "ThoughtWorks",
       "position": "Technical Lead",
-      "startDate": "2011-08-01",
-      "endDate": "2012-11-01",
+      "startDate": "2010-08-01",
+      "endDate": "2011-11-01",
       "summary": "",
       "highlights": [
         "Built a rich client web application to manage custom student assessments.",
@@ -332,8 +334,8 @@
       "company": "World’s Largest Apparel Retailer",
       "via": "ThoughtWorks",
       "position": "Senior Web Developer",
-      "startDate": "2011-08-01",
-      "endDate": "2012-11-01",
+      "startDate": "2010-02-15",
+      "endDate": "2012-08-01",
       "summary": "",
       "highlights": [
         "Worked on a large-scale enterprise e-commerce with multi-continent distributed teams..",
@@ -414,6 +416,29 @@
     }
   ],
 
+  "career": [
+    {
+      "date": "2004 - 2007",
+      "description": "University and Internships",
+      "size": 4
+    },
+    {
+      "date": "2007 - 2010",
+      "description": "Finished university and started working as a Senior Developer",
+      "size": 4
+    },
+    {
+      "date": "2010 - 2015",
+      "description": "Worked as an agile consultant on ThoughtWorks. Many different projects and technology stacks",
+      "size": 6
+    },
+    {
+      "date": "2015 - current",
+      "description": "Working as an independent contractor as well as through Toptal",
+      "size": 5
+    }
+  ],
+
   "skills": [{
     "name": "Web Development",
     "keywords": [
@@ -430,8 +455,9 @@
       "Responsive development practices and processes", "Continuous Delivery", "Test automation", "Kanban"
     ]
   }],
+
   "education": [{
-    "institution": "Universidade Estadual do Rio Grande do Sul",
+    "institution": "UERGS",
     "area": "Digital Systems Engineering",
     "studyType": "Bachelor",
     "startDate": "2003-02-01",

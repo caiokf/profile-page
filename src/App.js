@@ -5,21 +5,24 @@ import Header from './components/Header'
 import Profiles from './components/Profiles'
 import Education from './components/Education'
 import WorkExperience from './components/WorkExperience'
+import CareerOverview from './components/CareerOverview'
 
 export default () => {
   return (
     <Profile className="profile">
       <ProfileContainer className="profile-container">
         <Header />
-        <Body>
-          <Main>
-            <WorkExperience />
+        <Body className="body">
+          <Main className="career-and-profile-links">
+            <CareerOverview />
+
+            <RightSidebar className="right-sidebar">
+              <Education />
+              <Profiles />
+            </RightSidebar>
           </Main>
 
-          <RightSidebar>
-            <Education />
-            <Profiles />
-          </RightSidebar>
+          <WorkExperience />
         </Body>
       </ProfileContainer>
     </Profile>
@@ -45,17 +48,18 @@ const ProfileContainer = styled.div`
 `
 const Body = styled.div`
   display: flex;
+  flex-direction: column;
+`
+const Main = styled.div`
+  display: flex;
   flex: 1;
 
   ${styles.media.small`
     flex-direction: column;
   `}
 `
-const Main = styled.div`
-  display: flex;
-  flex: 1;
-`
 const RightSidebar = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
 `

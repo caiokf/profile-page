@@ -47,7 +47,6 @@ const Experience = styled.div`
   padding: ${styles.dimensions.md};
   border: 1px solid ${styles.colors.platinum};
   margin-bottom: ${styles.dimensions.md};
-
 `
 const Title = styled.div`
   ${styles.media.small`
