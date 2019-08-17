@@ -8,7 +8,7 @@ export default {
 
   // colors and accents
   yankeesBlue: '#00558B',
-  darkTangerine: '#fca311',
+  carrotOrange: '#F09B1A',
   highlightYellow: '#fdf2b2',
   red: '#f27474',
 }
