@@ -12,7 +12,7 @@ export default () => {
         return (
           <Profile href={x.url} target="_blank">
             <Icon src={x.icon} color={x.iconColor} />
-            <Network>{x.network}</Network>
+            <Network>{x.username}</Network>
           </Profile>
         )
       })}
