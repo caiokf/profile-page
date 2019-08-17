@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import styles from '../styleguide'
 import resume from '../resume.json'
+import { year } from '../utils/dates'
 
 export default () => {
   return (
@@ -11,25 +12,18 @@ export default () => {
           <div>
             <Header>Education</Header>
 
-            <div className="education-institution">
-              {x.institution}
-            </div>
-
-            <div className="education-course">
-              {x.area}
-            </div>
-
             <div className="education-degree">
-              {x.studyType}
+              {x.studyType} in {x.area}
             </div>
 
-            <div className="education-start">
-              {x.startDate}
-            </div>
+            <Instituition className="education-institution">
+              @ {x.institution}
+            </Instituition>
 
-            <div className="education-end">
-              {x.endDate}
-            </div>
+            <Date className="education-start">
+              {year(x.startDate)} - {year(x.endDate)}
+            </Date>
+
           </div>
         )
       })}
@@ -42,4 +36,11 @@ const Container = styled.div`
 `
 const Header = styled.div`
   ${styles.typography.header};
+`
+const Instituition = styled.div`
+  ${styles.typography.label};
+  margin-top: ${styles.dimensions.sm};
+`
+const Date = styled.div`
+  ${styles.typography.label};
 `

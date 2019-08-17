@@ -2,30 +2,23 @@ import React, { Component } from 'react'
 import { css } from 'styled-components'
 
 const sizes = {
-  tablet: 768,
-  phone: 414,
+  small: 1023,
 }
 
 const queries = {
-  phone: `(max-width: ${sizes.phone}px)`,
-  tablet: `(max-width: ${sizes.tablet}px) and (min-width: ${sizes.phone + 1}px)`,
-  desktop: `(min-width: ${sizes.tablet + 1}px)`,
+  small: `(max-width: ${sizes.small}px)`,
+  large: `(min-width: ${sizes.small + 1}px)`,
 }
 
 // Iterate through the sizes and create a media template
 const media = {
-  phone: (...args) => css`
-    @media ${queries.phone} {
+  small: (...args) => css`
+    @media ${queries.small} {
       ${css(...args)}
     }
   `,
-  tablet: (...args) => css`
-    @media ${queries.tablet} {
-      ${css(...args)}
-    }
-  `,
-  desktop: (...args) => css`
-    @media ${queries.desktop} {
+  large: (...args) => css`
+    @media ${queries.large} {
       ${css(...args)}
     }
   `,

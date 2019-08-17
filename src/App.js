@@ -34,13 +34,22 @@ const Profile = styled.div`
 `
 const ProfileContainer = styled.div`
   width: ${styles.dimensions.maxWidth};
-  padding: ${styles.dimensions.lg} 0;
+  padding: ${styles.dimensions.lg} ${styles.dimensions.md};
   display: flex;
   flex-direction: column;
+
+  ${styles.media.small`
+    width: 100%;
+    box-sizing: border-box;
+  `}
 `
 const Body = styled.div`
   display: flex;
   flex: 1;
+
+  ${styles.media.small`
+    flex-direction: column;
+  `}
 `
 const Main = styled.div`
   display: flex;

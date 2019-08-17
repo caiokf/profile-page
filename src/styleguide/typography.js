@@ -1,5 +1,6 @@
 import colors from './colors'
 import dimensions from './dimensions'
+import media from './media'
 
 const regular = `
   font-family: 'Montserrat', sans-serif;
@@ -9,7 +10,7 @@ const regular = `
 `
 export default {
   jumbo: regular + `
-    font-size: 48px;
+    font-size: 36px;
     line-height: 60px;
     font-weight: 700;
     color: ${colors.yankeesBlue};
@@ -26,7 +27,7 @@ export default {
   `,
 
   regular,
-  
+
   label: regular + `
     font-size: 14px;
     opacity: .8;

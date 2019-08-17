@@ -11,9 +11,11 @@ export default () => {
       {resume.work.map(x => {
         return (
           <Experience>
-            <Position className="work-position">{x.position}</Position>
-            @
-            <Company href={x.website || '#'} target="_blank" className="work-company">{x.company}</Company>
+            <Title>
+              <Position className="work-position">{x.position}</Position>
+              <Company href={x.website || '#'} target="_blank" className="work-company">@ {x.company}</Company>
+            </Title>
+
             <Summary>{x.summary}</Summary>
             <Highlights>
               {x.highlights && x.highlights.map(h => {
@@ -34,7 +36,9 @@ export default () => {
 }
 
 const Container = styled.div`
-  margin-right: ${styles.dimensions.lg};
+  ${styles.media.large`
+    margin-right: ${styles.dimensions.lg};
+  `}
 `
 const Header = styled.div`
   ${styles.typography.header};
@@ -45,12 +49,19 @@ const Experience = styled.div`
   margin-bottom: ${styles.dimensions.md};
 
 `
+const Title = styled.div`
+  ${styles.media.small`
+    display: flex;
+    flex-direction: column;
+  `}
+`
 const Position = styled.span`
-  margin-right: ${styles.dimensions.sm};
   font-weight: 700;
 `
 const Company = styled.a`
-  margin-left: ${styles.dimensions.sm};
+  ${styles.media.large`
+    margin-left: ${styles.dimensions.xs};
+  `}
 `
 const ExperienceSection = styled.div`
   margin-left: ${styles.dimensions.sm};
