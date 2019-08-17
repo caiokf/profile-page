@@ -1,0 +1,193 @@
+{
+  "basics": {
+    "name": "Caio Kinzel Filho",
+    "label": "Software Engineer | Tech Lead | Agile Consultant",
+    "picture": "http://www.gravatar.com/avatar/82c169bc19ec0a21b7fbcd2043fd4ad2.png?s=200",
+    "email": "caiokf@gmail.com",
+    "phone": "",
+    "summary": "Caio is a software developer and an Agilist with more than a decade of experience building web applications for small businesses and large enterprises. His passion is in writing impeccable and maintainable code for both the back-end and the front-end. Caio is a communicative and positive professional with main skills in Node.js, C#, React.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Porto Alegre",
+      "countryCode": "BR",
+      "region": "Rio Grande do Sul, Brazil"
+    },
+    "profiles": [
+      {
+        "network": "Toptal",
+        "username": "caiokf",
+        "url": "http://github.com/caiokf",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/toptal.svg",
+        "iconColor": "#3863A0"
+      },
+      {
+        "network": "GitHub",
+        "username": "caiokf",
+        "url": "https://github.com/caiokf",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg",
+        "iconColor": "#181717"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "caiokf",
+        "url": "https://www.linkedin.com/in/caiokf/",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg",
+        "iconColor": "#0077B5"
+      },
+      {
+        "network": "Codewars",
+        "username": "caiokf",
+        "url": "https://www.codewars.com/users/caiokf",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codewars.svg",
+        "iconColor": "#AD2C27"
+      },
+      {
+        "network": "Codepen",
+        "username": "caiokf",
+        "url": "https://codepen.io/caiokf/",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codepen.svg",
+        "iconColor": "#000000"
+      },
+      {
+        "network": "HackerRank",
+        "username": "caiokf",
+        "url": "https://www.hackerrank.com/caiokf",
+        "icon": "https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png",
+        "iconColor": "#2BBD5D"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "work": [
+  {
+    "company": "ThoughtWorks",
+    "position": "Lead Consultant",
+    "website": "https://www.thoughtworks.com",
+    "startDate": "2010-02-01",
+    "endDate": "2015-02-01",
+    "summary": "As a consultant, I participated in a few different projects in the course of the years with top developer from around the world. Ranging from large-scale Java enterprise apps, to Node.js applications, focusing on development processes and team practices, code quality and testability, I have worked in many different environments thoughout these years.",
+    "highlights": [
+      "World leading agile methodology",
+      "Continuous Delivery experiences",
+      "Consulting and coaching experience",
+      "Project - World’s largest apparel retailer: Large-scale enterprise app, Java based",
+      "Project - Industry leader in the development of customized student assessments: C#, ALT.NET stack, rich client, heavy on object oriented Javascript",
+      "Project - Brazil's leading magazine publisher: Ruby, Sinatra, REST, Redis",
+      "Project - Customized survey provider: C#, Polyglot persistence, Continuous Delivery pipeline",
+      "Project - Stock Exchange: C#, Javascipt, AngularJS, sucessful pilot project for company wide Agile transformation",
+      "Project - Managed cloud computing provider: Javascript, Google Closure, Multiple deploys per day Continuous Delivery pipeline"
+    ]
+  },
+  {
+    "company": "TOTVS",
+    "position": "Senior Web Developer",
+    "website": "http://totvs.com",
+    "startDate": "2009-09-01",
+    "endDate": "2010-02-01",
+    "summary": "This software factory works in the field of hospital management systems inside a large Enterprise of ERP systems. The product is used on some of the largest hospitals in Brazil, managing most of their processes and integrating with ERP systems, built using ASP.NET WebForms, AJAX  and COM+ technologies, with Oracle and MS SQL Server databases. The project had 15+ years old and was maintained by 50 developers using RUP methodologies. I worked as a developer and helped in the transition from old VCS to Subversion and advocated the use of Continuous Integration and unit testing practices that was later adopted by the company",
+    "highlights": [
+      "C#, MSSQL, Oracle",
+      "Large enterprise multi-tenant software",
+      "Microsoft Workflow Foundation experience"
+    ]
+  },
+  {
+    "company": "Farmácias Aguiar / HOS",
+    "position": "Technical Lead",
+    "website": "http://hos.com.br",
+    "startDate": "2007-02-01",
+    "endDate": "2009-09-01",
+    "summary": "A software design house working in the field of pharmaceutical software systems. Initially I developed a few independent systems in C#, motivating the company to migrate their products from VB6. The team consisted of 12 developers and QAs who only had experience with Visual Basic 6 and manual testing experiences, together with a few product owners and business analysts shared between this project's and another teams. I provided training for the developers and QA team, on Agile  methodologies, Object-Oriented Design, C# and automated tests for smart client platforms, designed a Continuous Integration environment and started the project architecture and kick-off using Windows  Forms, WCF and ALT.NET stack.",
+    "highlights": [
+      "C#, Visual Basic, MSSQL, Firebird",
+      "Full project life-cycle experience",
+      "Working closely with business experts",
+      "Migration from VB6 to .NET technologies",
+      "Onboarding team members onto Agile practices"
+    ]
+  },
+  {
+    "company": "Conceito Web",
+    "position": "Freelancer Web Developer",
+    "website": "http://conceitoweb.com.br",
+    "startDate": "2007-09-01",
+    "endDate": "2008-02-01",
+    "summary": "This digital design company was hired to build an e-commerce portal solution for a large client. This project consisted on a concept they called \"virtual shopping center\", where users could buy an e-commerce store on-line  and customize it. This solution was a greenfield application, though it needed to integrate with some systems and had some restrictions on the programming language, with certain architectural decisions required by the client. I was brought in to design the solution architecture and the development kick-off of the project working with a Product Owner, a Project Manager, and 7 Application/Database developers through the completion of the project. This project was develop in VB.NET and ASP.NET WebForms technology in a mix of Waterfall and Iterative methodologies, with the a closed-scope defined prior to the start of the project and a very short  deadline.",
+    "highlights": [
+      "VB.NET, MSSQL",
+      "E-commerce multi-tiered application",
+      "Responsible for architecture definition"
+    ]
+  },
+  {
+    "company": "Solon Tavares Technical State School",
+    "position": "Trainer",
+    "website": "http://solontavares.com/",
+    "startDate": "2006-05-01",
+    "endDate": "2007-11-01",
+    "summary": "Part time trainer on this state-run technical school, teaching subjects on the course of Software Development and Analysis. Among some of the subjects taught are: Software  Development, Systems Analysis, Object-Oriented Programming and Design, and Data Structures and Algorithms.",
+    "highlights": [
+      "Formal teaching experience"
+    ]
+  },
+  {
+    "company": "Zeta Informática",
+    "position": "Developer",
+    "website": "http://zeta.com.br",
+    "startDate": "2005-11-01",
+    "endDate": "2006-07-01",
+    "summary": "In-house developed ERP system. As a developer, I worked on some of the application modules in Clarion language, with Topspeed database.",
+    "highlights": [
+      "Clarion, Topspeed"
+    ]
+  },
+  {
+    "company": "Server Informática",
+    "position": "Developer",
+    "website": "http://www.serverinformatica.com.br",
+    "startDate": "2005-01-01",
+    "endDate": "2005-06-01",
+    "summary": "ServerObras is the main product of this company, and it's focused on the construction sector for architecture and engineering contractors, used by the some of the largest construction companies in Brazil. As a developer on this project, I worked with Visual Basic 6 and ASP.",
+    "highlights": [
+      "Visual Basic 6, Classic ASP, MSSQL"
+    ]
+  }
+  ],
+  "skills": [{
+    "name": "Web Development",
+    "keywords": [
+      "HTML5", "Javascript", "REACT JS", "Angular", "CSS/Less/SASS"
+    ]},
+    {
+    "name": "Server-side Development",
+    "keywords": [
+      "C#", "Node.js", "NOSQL databases"
+    ]},
+    {
+    "name": "Agile practices",
+    "keywords": [
+      "Responsive development practices and processes", "Continuous Delivery", "Test automation", "Kanban"
+    ]
+  }],
+  "education": [{
+    "institution": "Universidade Estadual do Rio Grande do Sul",
+    "area": "Digital Systems Engineering",
+    "studyType": "Bachelor",
+    "startDate": "2003-02-01",
+    "endDate": "2008-12-01"
+  }]
+}

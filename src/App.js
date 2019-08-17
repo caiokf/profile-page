@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import styled from 'styled-components'
+import Header from './components/Header'
+import Profiles from './components/Profiles'
+import Education from './components/Education'
+import WorkExperience from './components/WorkExperience'
 
-function App() {
+export default () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Profile className="profile">
+      <ProfileContainer className="profile-container">
+        <Header />
+        <Profiles />
+        <Education />
+        <WorkExperience />
+      </ProfileContainer>
+    </Profile>
+  )
 }
 
-export default App;
+const Profile = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+`
+const ProfileContainer = styled.div`
+  width: 1024px;
+  padding: 30px 0;
+`
