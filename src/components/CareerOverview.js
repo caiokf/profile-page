@@ -22,15 +22,17 @@ export default () => {
 }
 
 const Container = styled.div`
-  margin-bottom: ${styles.dimensions.lg};
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+
+  ${styles.media.small`
+    margin-bottom: ${styles.dimensions.lg};
+  `}
 
   ${styles.media.large`
     margin-right: ${styles.dimensions.lg};
   `}
-
-  flex: 2;
-  display: flex;
-  flex-direction: column;
 `
 const Header = styled.div`
   ${styles.typography.header};

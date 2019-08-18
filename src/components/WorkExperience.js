@@ -44,12 +44,10 @@ export default () => {
 }
 
 const Container = styled.div`
+  margin-top: ${styles.dimensions.lg};
+
   ${styles.media.large`
     margin-right: ${styles.dimensions.lg};
-  `}
-
-  ${styles.media.small`
-    margin-top: ${styles.dimensions.lg};
   `}
 `
 const Header = styled.div`
