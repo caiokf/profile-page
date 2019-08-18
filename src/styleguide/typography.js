@@ -1,6 +1,5 @@
 import colors from './colors'
 import dimensions from './dimensions'
-import media from './media'
 
 const regular = `
   font-family: 'Montserrat', sans-serif;

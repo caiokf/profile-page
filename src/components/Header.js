@@ -23,7 +23,6 @@ export default () => {
 
 const Header = styled.header`
   display: flex;
-  flex: 1;
   padding-bottom: ${styles.dimensions.lg};
   border-bottom: 1px solid ${styles.colors.platinum};
   margin-bottom: ${styles.dimensions.lg};

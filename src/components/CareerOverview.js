@@ -55,6 +55,7 @@ const Bullet = styled.div`
 const CareerDate = styled.div`
   flex: 2;
   font-weight: 700;
+  margin-right: ${styles.dimensions.md};
 `
 const CareerDescription = styled.div`
   flex: 7;

@@ -52,7 +52,6 @@ const Body = styled.div`
 `
 const Main = styled.div`
   display: flex;
-  flex: 1;
 
   ${styles.media.small`
     flex-direction: column;
@@ -61,5 +60,4 @@ const Main = styled.div`
 const RightSidebar = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 1;
 `
