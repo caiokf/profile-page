@@ -30,35 +30,35 @@
       },
       {
         "network": "GitHub",
-        "username": "caiokf",
+        "username": "github.com/caiokf",
         "url": "https://github.com/caiokf",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg",
         "iconColor": "#181717"
       },
       {
         "network": "LinkedIn",
-        "username": "/caiokf",
+        "username": "linkedin.com/in/caiokf",
         "url": "https://www.linkedin.com/in/caiokf/",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg",
         "iconColor": "#0077B5"
       },
       {
         "network": "Codewars",
-        "username": "caiokf",
+        "username": "codewars.com/users/caiokf",
         "url": "https://www.codewars.com/users/caiokf",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codewars.svg",
         "iconColor": "#AD2C27"
       },
       {
         "network": "Codepen",
-        "username": "caiokf",
+        "username": "codepen.io/caiokf",
         "url": "https://codepen.io/caiokf/",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codepen.svg",
         "iconColor": "#000000"
       },
       {
         "network": "HackerRank",
-        "username": "caiokf",
+        "username": "hackerrank.com/caiokf",
         "url": "https://www.hackerrank.com/caiokf",
         "icon": "https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png",
         "iconColor": "#2BBD5D"
@@ -292,7 +292,7 @@
       "via": "ThoughtWorks",
       "position": "Senior Web Developer",
       "startDate": "2010-02-15",
-      "endDate": "2012-08-01",
+      "endDate": "2011-08-01",
       "duration": "6 months",
       "summary": "",
       "highlights": [
