@@ -13,10 +13,14 @@ export default () => {
           <Experience>
             <Title>
               <Position className="work-position">{x.position}</Position>
-              <Company href={x.website || '#'} target="_blank" className="work-company">@ {x.company}</Company>
+              {x.website
+                ? <Company href={x.website} target="_blank" className="work-company">@ {x.company}</Company>
+                : <CompanyText className="work-company-text">@ {x.company}</CompanyText>
+              }
             </Title>
 
             <Summary>{x.summary}</Summary>
+
             <Highlights>
               {x.highlights && x.highlights.map(h => {
                 return (
@@ -58,6 +62,11 @@ const Position = styled.span`
   font-weight: 700;
 `
 const Company = styled.a`
+  ${styles.media.large`
+    margin-left: ${styles.dimensions.xs};
+  `}
+`
+const CompanyText = styled.span`
   ${styles.media.large`
     margin-left: ${styles.dimensions.xs};
   `}
