@@ -89,6 +89,7 @@
       "website": "https://www.selectquote.com",
       "startDate": "2019-03-25",
       "endDate": "2019-06-21",
+      "duration": "3 months",
       "summary": "",
       "highlights": [
         "Add functionality to C# and Node.js projects.",
@@ -102,47 +103,20 @@
       "company": "Run The Call",
       "position": "Lead Front-end Engineer",
       "website": "https://runthecall.com/",
-      "startDate": "2017-08-25",
+      "startDate": "2017-01-13",
       "endDate": "2019-01-20",
+      "duration": "2.5 years",
       "summary": "",
       "highlights": [
+        "Set up continuous integration.",
+        "Built the foundation for unit tests and automated acceptance tests.",
+        "Stabilized and added features to the frontend.",
         "Restructured the app and migrate it from Angular to React.",
         "Created js-side styleguides.",
         "Created an app-wide component library.",
         "Fixed defects and get the app ready for production."
       ],
-      "technologies": "React.js, Redux, Redux-saga, styled-components"
-    },
-
-    {
-      "company": "Scribe Intelligence",
-      "via": "Toptal",
-      "position": "Technical Lead",
-      "website": "https://www.scribeintelligence.com/",
-      "startDate": "2018-06-11",
-      "endDate": "2018-08-24",
-      "summary": "",
-      "highlights": [
-        "Architected and implemented a backend migration to Event Sourcing.",
-        "Redesigned the React frontend.",
-        "Improved performance of the application for the rendering of large datasets.",
-        "Mentoring of junior developers."
-      ],
-      "technologies": "Node.js, React, Event Sourcing, Streaming, AWS, ElasticSearch, MongoDB"
-    },
-
-    {
-      "company": "Cryptocurrency Chatbot Startup",
-      "position": "Chatbot Developer",
-      "startDate": "2017-10-10",
-      "endDate": "2017-10-17",
-      "summary": "",
-      "highlights": [
-        "Created a chatbot prototype for cryptocurrency trading using tools for classification and natural language processing.",
-        "Implemented chatbot memory for session support.",
-        "Created a SPA in React for interacting with the chatbot."
-      ],
-      "technologies": "Node.js, Chatbots, Natural Language Processing, Natural Brain, React, Redux"
+      "technologies": "JavaScript, AngularJS, GraphQL, Docker, Kubernetes, Google Cloud, Node.js, React.js, Redux, Redux-saga, styled-components"
     },
 
     {
@@ -150,9 +124,10 @@
       "position": "Full-stack Developer",
       "startDate": "2017-10-20",
       "endDate": "2017-11-25",
+      "duration": "1 month",
       "summary": "",
       "highlights": [
-        "Developed ethereum smart contracts for a digital markplace's payments and escrow.",
+        "Developed a proof of concept app on ethereum smart contracts for a digital markplace's payments and escrow.",
         "Built a back-end in Node.js, MongoDB, and GraphQL.",
         "Created a front-end in React to integrate with GraphQL using Apollo.",
         "Implemented the authentication system with Auth0 in React."
@@ -161,32 +136,24 @@
     },
 
     {
-      "company": "Redizoo",
+      "company": "Scribe Intelligence",
       "via": "Toptal",
-      "position": "Senior Front-end Developer",
-      "startDate": "2017-10-30",
-      "endDate": "2017-11-03",
-      "summary": "",
-      "highlights": [
-        "Created a front-end React app to integrate with a C# Web API back-end."
-      ],
-      "technologies": "React, Redux, Styled Components, C#, Web API"
-    },
-
-    {
-      "company": "Scribevo",
-      "via": "Toptal",
-      "position": "Senior Backend Engineer",
+      "position": "Technical Lead",
       "website": "https://www.scribeintelligence.com/",
       "startDate": "2017-11-20",
-      "endDate": "2017-12-07",
+      "endDate": "2018-08-24",
+      "duration": "1 year",
       "summary": "",
       "highlights": [
+        "Led and mentored a small team of developers.",
         "Optimized the performance of a streaming back-end for speech recognition by 20x.",
         "Built the foundation for a test-driven development workflow.",
-        "Decreased the operational costs of the application pipeline by improving third-party integration points."
+        "Decreased the operational costs of the application pipeline by improving third-party integration points.",
+        "Architected and implemented a backend migration to Event Sourcing.",
+        "Redesigned the React frontend.",
+        "Improved performance of the UI for the rendering of large datasets by 10x."
       ],
-      "technologies": "Node.js, Streaming, PostgreSQL, AWS, Docker, IBM Watson"
+      "technologies": "Node.js, React, Event Sourcing, Streaming, AWS, ElasticSearch, MongoDB, Docker"
     },
 
     {
@@ -195,6 +162,7 @@
       "webbsite": "https://www.caidr.co.uk/",
       "startDate": "2017-11-20",
       "endDate": "2017-12-07",
+      "duration": "3 months",
       "summary": "",
       "highlights": [
         "Led a small team in the development of a React Native app.",
@@ -211,6 +179,7 @@
       "position": "Senior React Developer",
       "startDate": "2017-04-24",
       "endDate": "2017-07-23",
+      "duration": "3 months",
       "summary": "",
       "highlights": [
         "Developed a React application for music notation editing.",
@@ -222,29 +191,13 @@
     },
 
     {
-      "company": "Run The Call",
-      "via": "Toptal",
-      "position": "Senior Frontend Developer",
-      "website": "https://runthecall.com/",
-      "startDate": "2017-01-13",
-      "endDate": "2017-03-30",
-      "summary": "",
-      "highlights": [
-        "Set up continuous integration.",
-        "Built the foundation for unit tests and automated acceptance tests.",
-        "Prepared the app for initial release.",
-        "Stabilized and added features to the frontend."
-      ],
-      "technologies": "JavaScript, AngularJS, Angular Material, GraphQL, Docker, Kubernetes, Google Cloud, Node.js"
-    },
-
-    {
       "company": "MustWin | Zenefits",
       "via": "Toptal",
       "position": "Senior Frontend Developer",
       "website": "https://www.zenefits.com",
       "startDate": "2017-08-22",
       "endDate": "2017-10-08",
+      "duration": "2 months",
       "summary": "",
       "highlights": [
         "Added React/Redux to the existing application.",
@@ -261,6 +214,7 @@
       "position": "Senior Fullstack Developer",
       "startDate": "2016-08-21",
       "endDate": "2016-04-04",
+      "duration": "6 months",
       "summary": "",
       "highlights": [
         "Worked as a JavaScript frontend developer on an AngularJS code base.",
@@ -277,6 +231,7 @@
       "website": "https://www.rackspace.com",
       "startDate": "2013-11-20",
       "endDate": "2015-02-01",
+      "duration": "1 year",
       "summary": "",
       "highlights": [
         "Worked on a continuous delivery pipeline with multiple deploys a day.",
@@ -294,6 +249,7 @@
       "website": "https://www.jse.co.za",
       "startDate": "2013-02-01",
       "endDate": "2013-11-01",
+      "duration": "9 months",
       "summary": "",
       "highlights": [
         "Implemented a pilot Agile project to be further followed by multiple teams within the organization.",
@@ -312,6 +268,7 @@
       "website": "https://www.visioncritical.com",
       "startDate": "2012-05-01",
       "endDate": "2014-11-01",
+      "duration": "8 months",
       "summary": "",
       "highlights": [
         "Built a platform for customized survey creation.",
@@ -329,7 +286,8 @@
       "position": "Technical Lead",
       "website": "https://www.measuredprogress.org",
       "startDate": "2010-08-01",
-      "endDate": "2011-11-01",
+      "endDate": "2012-03-01",
+      "duration": "1.5 years",
       "summary": "",
       "highlights": [
         "Built a rich client web application to manage custom student assessments.",
@@ -347,6 +305,7 @@
       "position": "Senior Web Developer",
       "startDate": "2010-02-15",
       "endDate": "2012-08-01",
+      "duration": "6 months",
       "summary": "",
       "highlights": [
         "Worked on a large-scale enterprise e-commerce with multi-continent distributed teams..",
@@ -362,6 +321,7 @@
       "website": "http://totvs.com",
       "startDate": "2009-09-01",
       "endDate": "2010-02-01",
+      "duration": "6 months",
       "summary": "This software factory works in the field of hospital management systems inside a large Enterprise of ERP systems. The product is used on some of the largest hospitals in Brazil, managing most of their processes and integrating with ERP systems, built using ASP.NET WebForms, AJAX  and COM+ technologies, with Oracle and MS SQL Server databases. The project had 15+ years old and was maintained by 50 developers using RUP methodologies. I worked as a developer and helped in the transition from old VCS to Subversion and advocated the use of Continuous Integration and unit testing practices that was later adopted by the company",
       "technologies": [
         "C#, MSSQL, Oracle",
@@ -376,6 +336,7 @@
       "website": "http://hos.com.br",
       "startDate": "2007-02-01",
       "endDate": "2009-09-01",
+      "duration": "3 years",
       "summary": "A software design house working in the field of pharmaceutical software systems. Initially I developed a few independent systems in C#, motivating the company to migrate their products from VB6. The team consisted of 12 developers and QAs who only had experience with Visual Basic 6 and manual testing experiences, together with a few product owners and business analysts shared between this project's and another teams. I provided training for the developers and QA team, on Agile  methodologies, Object-Oriented Design, C# and automated tests for smart client platforms, designed a Continuous Integration environment and started the project architecture and kick-off using Windows  Forms, WCF and ALT.NET stack.",
       "technologies": [
         "C#, Visual Basic, MSSQL, Firebird",
@@ -392,6 +353,7 @@
       "website": "http://conceitoweb.com.br",
       "startDate": "2007-09-01",
       "endDate": "2008-02-01",
+      "duration": "6 months",
       "summary": "This digital design company was hired to build an e-commerce portal solution for a large client. This project consisted on a concept they called \"virtual shopping center\", where users could buy an e-commerce store on-line  and customize it. This solution was a greenfield application, though it needed to integrate with some systems and had some restrictions on the programming language, with certain architectural decisions required by the client. I was brought in to design the solution architecture and the development kick-off of the project working with a Product Owner, a Project Manager, and 7 Application/Database developers through the completion of the project. This project was develop in VB.NET and ASP.NET WebForms technology in a mix of Waterfall and Iterative methodologies, with the a closed-scope defined prior to the start of the project and a very short  deadline.",
       "technologies": "VB.NET, MSSQL, E-commerce multi-tiered application"
     },
@@ -402,6 +364,7 @@
       "website": "http://solontavares.com/",
       "startDate": "2006-05-01",
       "endDate": "2007-11-01",
+      "duration": "1.5 years",
       "summary": "Part time trainer on this state-run technical school, teaching subjects on the course of Software Development and Analysis. Among some of the subjects taught are: Software  Development, Systems Analysis, Object-Oriented Programming and Design, and Data Structures and Algorithms.",
       "technologies": "Formal teaching experience"
     },
@@ -412,6 +375,7 @@
       "website": "http://zeta.com.br",
       "startDate": "2005-11-01",
       "endDate": "2006-07-01",
+      "duration": "8 months",
       "summary": "In-house developed ERP system. As a developer, I worked on some of the application modules in Clarion language, with Topspeed database.",
       "technologies": "Clarion, Topspeed"
     },
@@ -422,6 +386,7 @@
       "website": "http://www.serverinformatica.com.br",
       "startDate": "2005-01-01",
       "endDate": "2005-06-01",
+      "duration": "6 months",
       "summary": "ServerObras is the main product of this company, and it's focused on the construction sector for architecture and engineering contractors, used by the some of the largest construction companies in Brazil. As a developer on this project, I worked with Visual Basic 6 and ASP.",
       "technologies": "Visual Basic 6, Classic ASP, MSSQL"
     }
@@ -430,22 +395,22 @@
   "career": [
     {
       "date": "2004 - 2007",
-      "description": "University and Internships",
+      "description": "Took a few internships and scholarships during my first years of university. Worked with Hardware description languages, Embeded Systems, VHDL, Verilog, as well as software using VB, Clarion, .NET.",
       "size": 4
     },
     {
       "date": "2007 - 2010",
-      "description": "Finished university and started working as a Senior Developer",
+      "description": "Started working as Senior Developer while finishing my university degree. Mostly VB.NET and C#, Windows Forms and WebForms, moving into ASP.NET MVC.",
       "size": 4
     },
     {
       "date": "2010 - 2015",
-      "description": "Worked as an agile consultant on ThoughtWorks. Many different projects and technology stacks",
+      "description": "Worked as an agile consultant and technical lead at ThoughtWorks for 5 years. Participated in many different projects and technology stacks on small and large projects.",
       "size": 6
     },
     {
       "date": "2015 - current",
-      "description": "Working as an independent contractor as well as through Toptal",
+      "description": "Working as an independent contractor as well as through Toptal. Mostly short projects but with a few ongoing/recurring clients.",
       "size": 5
     }
   ],

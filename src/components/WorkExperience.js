@@ -21,7 +21,7 @@ export default () => {
                 : <CompanyText className="work-company-text">@ {x.company}</CompanyText>
               }
               {x.via && <span> (via {x.via})</span>}
-              <When>{year(x.startDate)} - {year(x.endDate)}</When>
+              <When>{year(x.startDate)} - {year(x.endDate)} ({x.duration})</When>
             </Title>
 
             <Summary>{x.summary}</Summary>
