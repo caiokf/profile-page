@@ -11,7 +11,7 @@
       "postalCode": "",
       "city": "Porto Alegre",
       "countryCode": "BR",
-      "region": "Rio Grande do Sul, Brazil"
+      "region": "Brazil"
     },
     "profiles": [
       {
@@ -90,7 +90,6 @@
       "startDate": "2019-03-25",
       "endDate": "2019-06-21",
       "duration": "3 months",
-      "summary": "",
       "highlights": [
         "Add functionality to C# and Node.js projects.",
         "Create A/B Testing variants of customer facing pages.",
@@ -106,7 +105,6 @@
       "startDate": "2017-01-13",
       "endDate": "2019-01-20",
       "duration": "2.5 years",
-      "summary": "",
       "highlights": [
         "Set up continuous integration.",
         "Built the foundation for unit tests and automated acceptance tests.",
@@ -125,7 +123,6 @@
       "startDate": "2017-10-20",
       "endDate": "2017-11-25",
       "duration": "1 month",
-      "summary": "",
       "highlights": [
         "Developed a proof of concept app on ethereum smart contracts for a digital markplace's payments and escrow.",
         "Built a back-end in Node.js, MongoDB, and GraphQL.",
@@ -143,7 +140,6 @@
       "startDate": "2017-11-20",
       "endDate": "2018-08-24",
       "duration": "1 year",
-      "summary": "",
       "highlights": [
         "Led and mentored a small team of developers.",
         "Optimized the performance of a streaming back-end for speech recognition by 20x.",
@@ -163,7 +159,6 @@
       "startDate": "2017-11-20",
       "endDate": "2017-12-07",
       "duration": "3 months",
-      "summary": "",
       "highlights": [
         "Led a small team in the development of a React Native app.",
         "Designed and architected the application from specs to deployment.",
@@ -180,7 +175,6 @@
       "startDate": "2017-04-24",
       "endDate": "2017-07-23",
       "duration": "3 months",
-      "summary": "",
       "highlights": [
         "Developed a React application for music notation editing.",
         "Created a back-end application to handle simple APIs endpoints.",
@@ -191,14 +185,13 @@
     },
 
     {
-      "company": "MustWin | Zenefits",
+      "company": "Zenefits | MustWin",
       "via": "Toptal",
       "position": "Senior Frontend Developer",
       "website": "https://www.zenefits.com",
-      "startDate": "2017-08-22",
-      "endDate": "2017-10-08",
+      "startDate": "2016-08-22",
+      "endDate": "2016-10-08",
       "duration": "2 months",
-      "summary": "",
       "highlights": [
         "Added React/Redux to the existing application.",
         "Implemented responsive web views using React.js and Sass under a tight deadline.",
@@ -209,13 +202,12 @@
     },
 
     {
-      "company": "MustWin | Cisco",
+      "company": "Cisco | MustWin",
       "via": "Toptal",
       "position": "Senior Fullstack Developer",
       "startDate": "2016-08-21",
       "endDate": "2016-04-04",
       "duration": "6 months",
-      "summary": "",
       "highlights": [
         "Worked as a JavaScript frontend developer on an AngularJS code base.",
         "Set up a unit testing framework for frontend application.",
@@ -232,7 +224,6 @@
       "startDate": "2013-11-20",
       "endDate": "2015-02-01",
       "duration": "1 year",
-      "summary": "",
       "highlights": [
         "Worked on a continuous delivery pipeline with multiple deploys a day.",
         "Created a dashboard for managing cloud servers, databases, and other resources",
@@ -250,7 +241,6 @@
       "startDate": "2013-02-01",
       "endDate": "2013-11-01",
       "duration": "9 months",
-      "summary": "",
       "highlights": [
         "Implemented a pilot Agile project to be further followed by multiple teams within the organization.",
         "Provided guidance for the client's technical leads on processes and tools.",
@@ -269,7 +259,6 @@
       "startDate": "2012-05-01",
       "endDate": "2014-11-01",
       "duration": "8 months",
-      "summary": "",
       "highlights": [
         "Built a platform for customized survey creation.",
         "Created a continuous delivery pipeline.",
@@ -288,7 +277,6 @@
       "startDate": "2010-08-01",
       "endDate": "2012-03-01",
       "duration": "1.5 years",
-      "summary": "",
       "highlights": [
         "Built a rich client web application to manage custom student assessments.",
         "Introduced continuous integration, testing, and Agile processes to the project as a pilot to the organization.",
@@ -308,7 +296,7 @@
       "duration": "6 months",
       "summary": "",
       "highlights": [
-        "Worked on a large-scale enterprise e-commerce with multi-continent distributed teams..",
+        "Worked on a large-scale enterprise e-commerce with multi-continent distributed teams.",
         "Developed a plan to reduce technical debt.",
         "Worked on global payment processing and order fullfillment."
       ],
@@ -322,12 +310,8 @@
       "startDate": "2009-09-01",
       "endDate": "2010-02-01",
       "duration": "6 months",
-      "summary": "This software factory works in the field of hospital management systems inside a large Enterprise of ERP systems. The product is used on some of the largest hospitals in Brazil, managing most of their processes and integrating with ERP systems, built using ASP.NET WebForms, AJAX  and COM+ technologies, with Oracle and MS SQL Server databases. The project had 15+ years old and was maintained by 50 developers using RUP methodologies. I worked as a developer and helped in the transition from old VCS to Subversion and advocated the use of Continuous Integration and unit testing practices that was later adopted by the company",
-      "technologies": [
-        "C#, MSSQL, Oracle",
-        "Large enterprise multi-tenant software",
-        "Microsoft Workflow Foundation experience"
-      ]
+      "summary": "This software factory works in the field of hospital management systems inside a large Enterprise of ERP systems. The product is used on some of the largest hospitals in Brazil, managing most of their processes and integrating with ERP systems, built using ASP.NET WebForms, AJAX  and COM+ technologies, with Oracle and MS SQL Server databases. The project was 15+ years old and maintained by 50+ developers using RUP methodologies. I worked as a developer and helped in the transition from an old VCS to Subversion and advocated the use of Continuous Integration and unit testing practices that was later adopted by the company.",
+      "technologies": "C#, MSSQL, Oracle, large enterprise multi-tenant software, MS Workflow Foundation"
     },
 
     {
@@ -337,14 +321,12 @@
       "startDate": "2007-02-01",
       "endDate": "2009-09-01",
       "duration": "3 years",
-      "summary": "A software design house working in the field of pharmaceutical software systems. Initially I developed a few independent systems in C#, motivating the company to migrate their products from VB6. The team consisted of 12 developers and QAs who only had experience with Visual Basic 6 and manual testing experiences, together with a few product owners and business analysts shared between this project's and another teams. I provided training for the developers and QA team, on Agile  methodologies, Object-Oriented Design, C# and automated tests for smart client platforms, designed a Continuous Integration environment and started the project architecture and kick-off using Windows  Forms, WCF and ALT.NET stack.",
-      "technologies": [
-        "C#, Visual Basic, MSSQL, Firebird",
-        "Full project life-cycle experience",
-        "Working closely with business experts",
-        "Migration from VB6 to .NET technologies",
-        "Onboarding team members onto Agile practices"
-      ]
+      "highlights": [
+        "Single-handedly developed a logistics and call-center system which was still being used in production 10+ years later.",
+        "Involved in the the full project life-cycle, working closely with business experts.",
+        "Traning a small team of developers on OOP, Agile, Testing, CI/CD for a migration from VB6 to .NET"
+      ],
+      "technologies": "VB6, VB.NET, C#, ASP.NET WebForms, Windows Forms, Firebird, MSSQL"
     },
 
     {
@@ -354,8 +336,12 @@
       "startDate": "2007-09-01",
       "endDate": "2008-02-01",
       "duration": "6 months",
-      "summary": "This digital design company was hired to build an e-commerce portal solution for a large client. This project consisted on a concept they called \"virtual shopping center\", where users could buy an e-commerce store on-line  and customize it. This solution was a greenfield application, though it needed to integrate with some systems and had some restrictions on the programming language, with certain architectural decisions required by the client. I was brought in to design the solution architecture and the development kick-off of the project working with a Product Owner, a Project Manager, and 7 Application/Database developers through the completion of the project. This project was develop in VB.NET and ASP.NET WebForms technology in a mix of Waterfall and Iterative methodologies, with the a closed-scope defined prior to the start of the project and a very short  deadline.",
-      "technologies": "VB.NET, MSSQL, E-commerce multi-tiered application"
+      "highlights": [
+        "Architected and developed the company's vision of a \"virtual shopping center\".",
+        "Worked through a tight deadline with a team of 8 developers to deliver the final project.",
+        "Mentoring junior developers on multi-tiered application design and OOP."
+      ],
+      "technologies": "VB.NET, MSSQL, e-commerce, multi-tiered application"
     },
 
     {
@@ -365,7 +351,7 @@
       "startDate": "2006-05-01",
       "endDate": "2007-11-01",
       "duration": "1.5 years",
-      "summary": "Part time trainer on this state-run technical school, teaching subjects on the course of Software Development and Analysis. Among some of the subjects taught are: Software  Development, Systems Analysis, Object-Oriented Programming and Design, and Data Structures and Algorithms.",
+      "summary": "Part time trainer on this state-run technical school, teaching subjects on the course of Software Development and Analysis. Among some of the subjects taught are: Software Development, Systems Analysis, Object-Oriented Programming and Design, and Data Structures and Algorithms.",
       "technologies": "Formal teaching experience"
     },
 
@@ -376,7 +362,10 @@
       "startDate": "2005-11-01",
       "endDate": "2006-07-01",
       "duration": "8 months",
-      "summary": "In-house developed ERP system. As a developer, I worked on some of the application modules in Clarion language, with Topspeed database.",
+      "highlights": [
+        "In-house developed ERP system. I worked on some of the application modules in Clarion language, with Topspeed database.",
+        "Within two months, I held the highest performance markers amongst all the developers."
+      ],
       "technologies": "Clarion, Topspeed"
     },
 
@@ -387,7 +376,10 @@
       "startDate": "2005-01-01",
       "endDate": "2005-06-01",
       "duration": "6 months",
-      "summary": "ServerObras is the main product of this company, and it's focused on the construction sector for architecture and engineering contractors, used by the some of the largest construction companies in Brazil. As a developer on this project, I worked with Visual Basic 6 and ASP.",
+      "highlights": [
+        "Internship developing an application for civil engineering clients, used by some of the largest construction companies in Brazil.",
+        "Learned Classic ASP and improved my knowledge on databases and development processes."
+      ],
       "technologies": "Visual Basic 6, Classic ASP, MSSQL"
     }
   ],
@@ -405,12 +397,12 @@
     },
     {
       "date": "2010 - 2015",
-      "description": "Worked as an agile consultant and technical lead at ThoughtWorks for 5 years. Participated in many different projects and technology stacks on small and large projects.",
+      "description": "Worked as an agile consultant and technical lead at ThoughtWorks for 5 years. Participated in many different projects and technology stacks on small and large teams.",
       "size": 6
     },
     {
       "date": "2015 - current",
-      "description": "Working as an independent contractor as well as through Toptal. Mostly short projects but with a few ongoing/recurring clients.",
+      "description": "Working as an independent contractor as well as through Toptal. Helped leading the foundation of many startups. Mostly short projects but with a few ongoing/recurring clients.",
       "size": 5
     }
   ],
@@ -432,11 +424,20 @@
     ]
   }],
 
-  "education": [{
-    "institution": "UERGS",
-    "area": "Digital Systems Engineering",
-    "studyType": "Bachelor",
-    "startDate": "2003-02-01",
-    "endDate": "2008-12-01"
-  }]
+  "education": [
+    {
+      "institution": "UERGS",
+      "area": "Digital Systems Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2003-02-01",
+      "endDate": "2008-12-01"
+    },
+    {
+      "institution": "ULBRA",
+      "area": "IT",
+      "studyType": "High-School with Technical Emphasis",
+      "startDate": "1999-02-01",
+      "endDate": "2001-12-01"
+    }
+  ]
 }

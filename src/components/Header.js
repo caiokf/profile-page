@@ -4,8 +4,6 @@ import styles from '../styleguide'
 import resume from '../resume.json'
 
 export default () => {
-  console.log(resume)
-
   return (
     <Header className="profile-bio">
       <div>
@@ -15,6 +13,7 @@ export default () => {
       <div>
         <Name className="name">{resume.basics.name}</Name>
         <Headline className="headline">{resume.basics.label}</Headline>
+        <Location className="location">{resume.basics.location.city}, {resume.basics.location.region}</Location>
         <div className="summary">{resume.basics.summary}</div>
       </div>
     </Header>
@@ -49,7 +48,10 @@ const Avatar = styled.div`
 const Name = styled.div`
   ${styles.typography.jumbo};
 `
-const Headline = styled.div`
+const Location = styled.div`
   ${styles.typography.label};
   margin-bottom: ${styles.dimensions.md};
+`
+const Headline = styled.div`
+  ${styles.typography.label};
 `
