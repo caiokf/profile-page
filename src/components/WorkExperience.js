@@ -4,7 +4,7 @@ import styles from '../styleguide'
 import resume from '../resume.json'
 import { year } from '../utils/dates'
 
-const work = () => resume.work.sort((a, b) => a.startDate > b.startDate ? -1 : 1)
+const work = () => resume.work.sort((a, b) => a.endDate > b.endDate ? -1 : 1)
 
 export default () => {
   return (
