@@ -9,7 +9,7 @@ export default createGlobalStyle`
 
   a {
     text-decoration: none;
-    
+
     ${typography.regular};
 
     &:visited {

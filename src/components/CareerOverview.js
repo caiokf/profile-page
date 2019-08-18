@@ -49,7 +49,7 @@ const Bullet = styled.div`
   position: absolute;
   left: -18px;
   top: 17px;
-  border: 5px solid ${styles.colors.yankeesBlue};
+  border: 5px solid ${styles.colors.usafaBlue};
   border-radius: 50%;
 `
 const CareerDate = styled.div`

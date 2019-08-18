@@ -17,13 +17,8 @@ export default () => {
             </div>
 
             <Instituition className="education-institution">
-              @ {x.institution}
+              @ {x.institution} ({year(x.startDate)} - {year(x.endDate)})
             </Instituition>
-
-            <Date className="education-start">
-              {year(x.startDate)} - {year(x.endDate)}
-            </Date>
-
           </div>
         )
       })}
@@ -40,7 +35,4 @@ const Header = styled.div`
 const Instituition = styled.div`
   ${styles.typography.label};
   margin-top: ${styles.dimensions.sm};
-`
-const Date = styled.div`
-  ${styles.typography.label};
 `

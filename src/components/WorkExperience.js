@@ -43,6 +43,10 @@ const Container = styled.div`
   ${styles.media.large`
     margin-right: ${styles.dimensions.lg};
   `}
+
+  ${styles.media.small`
+    margin-top: ${styles.dimensions.lg};
+  `}
 `
 const Header = styled.div`
   ${styles.typography.header};
@@ -85,7 +89,7 @@ const Technologies = styled(ExperienceSection)`
   margin-bottom: 0;
 `
 const TechLabel = styled.span`
-  color: ${styles.colors.codGray};
+  color: ${styles.colors.metalGray};
   font-weight: 500;
 `
 const TechStack = styled.span`
