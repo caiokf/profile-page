@@ -20,6 +20,7 @@ export default () => {
                 ? <Company href={x.website} target="_blank" className="work-company">@ {x.company}</Company>
                 : <CompanyText className="work-company-text">@ {x.company}</CompanyText>
               }
+              {x.via && <span> (via {x.via})</span>}
               <When>{year(x.startDate)} - {year(x.endDate)}</When>
             </Title>
 
