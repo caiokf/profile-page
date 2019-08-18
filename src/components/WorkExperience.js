@@ -2,13 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import styles from '../styleguide'
 import resume from '../resume.json'
+import { year } from '../utils/dates'
+
+const work = () => resume.work.sort((a, b) => a.startDate > b.startDate ? -1 : 1)
 
 export default () => {
   return (
     <Container className="work-container">
       <Header>Work Experience</Header>
 
-      {resume.work.map(x => {
+      {work().map(x => {
         return (
           <Experience>
             <Title>
@@ -17,6 +20,7 @@ export default () => {
                 ? <Company href={x.website} target="_blank" className="work-company">@ {x.company}</Company>
                 : <CompanyText className="work-company-text">@ {x.company}</CompanyText>
               }
+              <When>{year(x.startDate)} - {year(x.endDate)}</When>
             </Title>
 
             <Summary>{x.summary}</Summary>
@@ -55,6 +59,7 @@ const Experience = styled.div`
   padding: ${styles.dimensions.md};
   border: 1px solid ${styles.colors.platinum};
   margin-bottom: ${styles.dimensions.md};
+  position: relative;
 `
 const Title = styled.div`
   ${styles.media.small`
@@ -92,6 +97,13 @@ const TechLabel = styled.span`
   color: ${styles.colors.metalGray};
   font-weight: 500;
 `
-const TechStack = styled.span`
+const When = styled.span`
+  color: ${styles.colors.carrotOrange};
+  font-weight: 500;
 
+  ${styles.media.large`
+    position: absolute;
+    right: ${styles.dimensions.md};
+  `}
 `
+const TechStack = styled.span``
