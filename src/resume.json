@@ -66,6 +66,29 @@
     ]
   },
 
+  "career": [
+    {
+      "date": "2004 - 2007",
+      "description": "Took a few internships and scholarships during my first years of university. Worked with Hardware description languages, Embeded Systems, VHDL, Verilog, as well as software using VB, Clarion, .NET.",
+      "size": 4
+    },
+    {
+      "date": "2007 - 2010",
+      "description": "Started working as Senior Developer while finishing my university degree. Mostly VB.NET and C#, Windows Forms and WebForms, moving into ASP.NET MVC.",
+      "size": 4
+    },
+    {
+      "date": "2010 - 2015",
+      "description": "Worked as an agile consultant and technical lead at ThoughtWorks for 5 years. Participated in many different projects and technology stacks on small and large teams.",
+      "size": 6
+    },
+    {
+      "date": "2015 - current",
+      "description": "Working as an independent contractor and working remotely. Helped leading the foundation of many startups. Mostly short projects but with a few ongoing/recurring clients.",
+      "size": 5
+    }
+  ],
+
   "languages": [
     {
       "language": "Portuguese",
@@ -83,8 +106,44 @@
 
   "work": [
     {
+      "company": "Flexible Finance",
+      "position": "Lead Frontend Developer",
+      "remote": true,
+      "website": "https://www.getflex.com",
+      "startDate": "2020-05-22",
+      "duration": "3 months",
+      "highlights": [
+        "Engineering lead at a Flex. The role is a combination of that of a principal engineer and an engineering manager",
+        "Architecting and building new systems to improve Flex's key services such as Flex's bill payment engine and credit decisioning platform.",
+        "Improving the performance of Flex's engineering team, while maintaining their focus on executing Flex's technical roadmap.",
+        "Working closely with other teams like Product and Data Science to influence Flex's product vision."
+      ],
+      "technologies": "Typescript, Event Sourcing, AWS, Serverless, React Native"
+    },
+
+    {
+      "company": "InDebted",
+      "position": "Senior Full-stack Developer",
+      "website": "https://www.indebted.co",
+      "remote": true,
+      "startDate": "2019-11-20",
+      "endDate": "2020-05-22",
+      "duration": "3 months",
+      "highlights": [
+        "Work on key features composing the main pillars of the new codebase while taking full ownership from conception to release.",
+        "Research, analyse and translate business needs into solution architectures.",
+        "Implement secure, self-healing, highly scalable serverless microservices.",
+        "Ensure compliance best practices across the entire ecosystem.",
+        "Take full ownership of features with implementation, integration & end-to-end testing, deployment, infrastructure management, logging, and monitoring.",
+        "Receive and provide constructive feedback verbally and through code reviews."
+      ],
+      "technologies": "Go, Event Sourcing, AWS, Serverless, Node.js, React"
+    },
+
+    {
       "company": "SelectQuote",
       "via": "Toptal",
+      "remote": true,
       "position": "Senior Full-stack Developer",
       "website": "https://www.selectquote.com",
       "startDate": "2019-03-25",
@@ -100,6 +159,7 @@
 
     {
       "company": "Run The Call",
+      "remote": true,
       "position": "Lead Front-end Engineer",
       "website": "https://runthecall.com/",
       "startDate": "2017-01-13",
@@ -119,6 +179,7 @@
 
     {
       "company": "Ethereum Marketplace Startup",
+      "remote": true,
       "position": "Full-stack Developer",
       "startDate": "2017-10-20",
       "endDate": "2017-11-25",
@@ -135,6 +196,7 @@
     {
       "company": "Scribe Intelligence",
       "via": "Toptal",
+      "remote": true,
       "position": "Technical Lead",
       "website": "https://www.scribeintelligence.com/",
       "startDate": "2017-11-20",
@@ -155,6 +217,7 @@
     {
       "company": "Clinova",
       "position": "Lead React Native Developer",
+      "remote": true,
       "webbsite": "https://www.caidr.co.uk/",
       "startDate": "2017-11-20",
       "endDate": "2017-12-07",
@@ -171,6 +234,7 @@
     {
       "company": "University at Buffalo—SUNY",
       "via": "Toptal",
+      "remote": true,
       "position": "Senior React Developer",
       "startDate": "2017-04-24",
       "endDate": "2017-07-23",
@@ -187,6 +251,7 @@
     {
       "company": "Zenefits | MustWin",
       "via": "Toptal",
+      "remote": true,
       "position": "Senior Frontend Developer",
       "website": "https://www.zenefits.com",
       "startDate": "2016-08-22",
@@ -204,6 +269,7 @@
     {
       "company": "Cisco | MustWin",
       "via": "Toptal",
+      "remote": true,
       "position": "Senior Fullstack Developer",
       "startDate": "2016-08-21",
       "endDate": "2016-04-04",
@@ -384,45 +450,31 @@
     }
   ],
 
-  "career": [
+  "skills": [
     {
-      "date": "2004 - 2007",
-      "description": "Took a few internships and scholarships during my first years of university. Worked with Hardware description languages, Embeded Systems, VHDL, Verilog, as well as software using VB, Clarion, .NET.",
-      "size": 4
+      "name": "Web Development",
+      "keywords": [
+        "HTML5",
+        "Javascript",
+        "REACT JS",
+        "Angular",
+        "CSS/Less/SASS"
+      ]
     },
     {
-      "date": "2007 - 2010",
-      "description": "Started working as Senior Developer while finishing my university degree. Mostly VB.NET and C#, Windows Forms and WebForms, moving into ASP.NET MVC.",
-      "size": 4
+      "name": "Server-side Development",
+      "keywords": ["C#", "Node.js", "NOSQL databases"]
     },
     {
-      "date": "2010 - 2015",
-      "description": "Worked as an agile consultant and technical lead at ThoughtWorks for 5 years. Participated in many different projects and technology stacks on small and large teams.",
-      "size": 6
-    },
-    {
-      "date": "2015 - current",
-      "description": "Working as an independent contractor as well as through Toptal. Helped leading the foundation of many startups. Mostly short projects but with a few ongoing/recurring clients.",
-      "size": 5
+      "name": "Agile practices",
+      "keywords": [
+        "Responsive development practices and processes",
+        "Continuous Delivery",
+        "Test automation",
+        "Kanban"
+      ]
     }
   ],
-
-  "skills": [{
-    "name": "Web Development",
-    "keywords": [
-      "HTML5", "Javascript", "REACT JS", "Angular", "CSS/Less/SASS"
-    ]},
-    {
-    "name": "Server-side Development",
-    "keywords": [
-      "C#", "Node.js", "NOSQL databases"
-    ]},
-    {
-    "name": "Agile practices",
-    "keywords": [
-      "Responsive development practices and processes", "Continuous Delivery", "Test automation", "Kanban"
-    ]
-  }],
 
   "education": [
     {
